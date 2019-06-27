@@ -1,0 +1,811 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"console"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"CON",
+				"console"
+			],
+			[
+				"ws",
+				"wsMsg"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"el",
+				"el-col"
+			],
+			[
+				"h",
+				"hq2base511"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"bod",
+				"boderYellow"
+			],
+			[
+				"boder",
+				"boderGreen"
+			],
+			[
+				"data",
+				"dataReady"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bo",
+				"boderColor"
+			],
+			[
+				"fo",
+				"formResult"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"ch",
+				"checked"
+			],
+			[
+				"fOR",
+				"formDataP"
+			],
+			[
+				"formd",
+				"formDataP"
+			],
+			[
+				"stc",
+				"STC"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"el-f",
+				"el-form-item"
+			],
+			[
+				"op",
+				"optionData"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"proto",
+				"protoc.exe"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/store/modules/permission.js",
+			"settings":
+			{
+				"buffer_size": 1934,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/router/index.js",
+			"settings":
+			{
+				"buffer_size": 2045,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/views/communication/link.vue",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/store/modules/socket.js",
+			"settings":
+			{
+				"buffer_size": 1412,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/views/user/user.vue",
+			"settings":
+			{
+				"buffer_size": 7721,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 135.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"vue",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"M",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Create Binary Package File→创建二进制插件"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"in",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"i",
+				"Package Control: Install Package→安装插件"
+			]
+		],
+		"width": 402.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"SublimeLinter 3"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/api",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/router",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/store",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/store/modules",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/utils",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/article",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/communication",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/layout",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/user",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/build",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/config"
+	],
+	"file_history":
+	[
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/user/user.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/layout/components/Sidebar/index.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/config/index.js",
+		"/C/workspace/spring-boot-websocket-sample-master/src/main/resources/static/app.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/config/dev.env.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/config/prod.env.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/package.json",
+		"/C/workspace/spring-boot-websocket-sample-master/target/classes/static/app.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/store/modules/socket.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/communication/link.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/router/index.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/article/article.vue",
+		"/C/workspace/spring-boot-websocket-sample-master/target/classes/static/index.html",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/package-lock.json",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/layout/Layout.vue",
+		"/C/workspace/spring-boot-websocket-sample-master/src/main/resources/static/index.html",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/dist/static/js/app.2116c23dacd36adaae70.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/utils/websocket/socket.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/main.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/layout/components/Navbar.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/App.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/index.html",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/const.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/store/index.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/store/modules/permission.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/store/modules/app.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/login/index.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/store/modules/user.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/permission.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/utils/api.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/store/getters.js",
+		"/C/tools/capslock/CapsLock+settingsDemo.ini",
+		"/C/tools/capslock/CapsLock+settings.ini",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/communicationLink/index - 副本.vue--",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/CommunicationLink/index.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/components/STC/index.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/README.md",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/login/index.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/permission.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/.eslintrc.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/.editorconfig",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/form/index.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/table/index.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/router/index.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/api/table.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/mock/table.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/store/modules/user.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/main.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/utils/request.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/build/utils.js",
+		"/C/Users/Administrator/Desktop/屏幕密码",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/components/SvgIcon/index.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/config/dev.env.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/config/index.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/config/prod.env.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/store/index.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/layout/components/Navbar.vue",
+		"/C/workspace/vue-element-admin/vue-element-admin/.eslintrc.js",
+		"/C/tools/SublimeText_XP85/Sublime Text 3.3111-x64 by roustar31/Sublime Text 3x64/Data/Packages/User/Package Control.sublime-settings",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/layout/components/Sidebar/index.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/components/Breadcrumb/index.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/dashboard/index.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/tree/index.vue",
+		"/C/tools/SublimeText_XP85/Sublime Text 3.3111-x64 by roustar31/Sublime Text 3x64/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/layout/Layout.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/views/layout/components/AppMain.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/api/login.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/store/getters.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/store/modules/app.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/App.vue",
+		"/C/workspace/vue-element-admin/vue-admin-template/src/icons/index.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/package.json",
+		"/C/workspace/vue-element-admin/vue-admin-template/build/webpack.dev.conf.js",
+		"/C/workspace/vue-element-admin/vue-admin-template/build/webpack.base.conf.js",
+		"/C/nodejs/node_global/node_modules/webpack/package.json",
+		"/C/workspace/vue-element-admin-master/src/views/permission/page.vue",
+		"/C/workspace/vue-element-admin-master/src/permission.js",
+		"/C/workspace/vue-element-admin-master/package.json",
+		"/C/workspace/vue-element-admin-master/src/router/index.js",
+		"/C/workspace/vue-element-admin-master/src/store/modules/app.js",
+		"/C/workspace/vue-element-admin-master/src/layout/components/AppMain.vue",
+		"/C/workspace/vue-element-admin-master/src/layout/index.vue",
+		"/C/workspace/vue-element-admin-master/build/index.js",
+		"/C/workspace/vue-element-admin-master/.github/ISSUE_TEMPLATE/bug_report.md",
+		"/C/workspace/vue-element-admin-master/src/store/modules/permission.js",
+		"/C/workspace/vue-element-admin-master/src/views/login/index.vue",
+		"/C/workspace/vue-element-admin-master/src/views/tab/index.vue",
+		"/C/workspace/vue-element-admin-master/src/styles/mixin.scss",
+		"/C/workspace/vue-element-admin-master/src/store/modules/errorLog.js",
+		"/C/workspace/vue-element-admin-master/src/views/errorPage/404.vue",
+		"/C/workspace/vue-element-admin-master/src/router/modules/components.js",
+		"/C/workspace/vue-element-admin-master/vue.config.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/db.sql",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/utils/auth.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/build/webpack.prod.conf.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/build/webpack.dev.conf.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/layout/components/index.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/layout/components/Sidebar/SidebarItem.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/dashboard/index.vue",
+		"/C/Users/Administrator/AppData/Local/Google/Chrome/User Data/Default/Extensions/ljjemllljcmogpfapbkkighbhhppjdbg/5.0.0.6_0/manifest.json",
+		"/C/tools/SublimeText_XP85/Sublime Text 3.3111-x64 by roustar31/Sublime Text 3x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/dist/index.html",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/build/webpack.base.conf.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/build/build.js",
+		"/C/nodejs/node_modules/npm/npmrc",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/build/vue-loader.conf.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/router/_import_production.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/layout/components/AppMain.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/components/Breadcrumb/index.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/api/login.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/components/ScrollBar/index.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/utils/hasPermission.js",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/404.vue",
+		"/C/workspace/SpringBoot-Shiro-Vue-master/vue/src/views/user/role.vue",
+		"/C/Users/Administrator/Desktop/1.js",
+		"/C/Users/Administrator/Documents/Downloads/vue-syntax-highlight-master/vue-syntax-highlight-master/samples/arrow.vue",
+		"/C/Users/Administrator/Documents/Downloads/vue-syntax-highlight-master/vue-syntax-highlight-master/samples/basic.vue",
+		"/C/Users/Administrator/Documents/Downloads/vue-syntax-highlight-master/vue-syntax-highlight-master/samples/langs.vue",
+		"/C/workspace/vueDemo/mytest/build/webpack.prod.conf.js",
+		"/C/Users/Administrator/Documents/Downloads/ELKstack-guide-cn-master/kibana/v5/visualize/area.md",
+		"/C/Users/Administrator/Documents/Downloads/ELKstack-guide-cn-master/kibana/v5/source-code-analysis/indexjs.md",
+		"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.167/README.md",
+		"/C/Users/Administrator/Documents/Downloads/ELKstack-guide-cn-master/kibana/v5/source-code-analysis/visualize.md",
+		"/C/Users/Administrator/Documents/Downloads/elasticsearch-definitive-guide-cn/010_Intro/30_Tutorial_Search.asciidoc",
+		"/C/Users/Administrator/Documents/Downloads/capslock/CapsLock+settingsDemo - 副本.ini",
+		"/C/Users/Administrator/Documents/Downloads/capslock/CapsLock+settingsDemo.ini",
+		"/C/Users/Administrator/Desktop/bookmarks_2018_9_24.html",
+		"/C/tools/Shadowsocks-4.0.6/gui-config (1).json"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"",
+			"C:\\workspace\\SpringBoot-Shiro-Vue-master\\vue\\src,C:\\workspace\\SpringBoot-Shiro-Vue-master\\vue\\build,C:\\workspace\\SpringBoot-Shiro-Vue-master\\vue\\config",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".info",
+			"visitedViews",
+			"nickname",
+			"permission_routers",
+			"menus",
+			"userId",
+			"visitedViews",
+			"NODE_ENV",
+			"BASE_URL",
+			"parseTime",
+			"cleanArray",
+			"html2Text",
+			"BASE_URL",
+			"filterAsyncRouter",
+			"asyncRouterMap",
+			"BASE_URL",
+			"8080",
+			"BASE_URL",
+			"8080",
+			"BASE_URL",
+			"$store",
+			"store",
+			"function",
+			"created",
+			"debugger",
+			"hello",
+			"BASE_URL",
+			"onheartbeat",
+			"jin",
+			"#",
+			"mount",
+			"#heart_timer",
+			"#reconnect_timer",
+			"getList",
+			"LogOut",
+			"FedLogOut",
+			"SET_USER",
+			"getInfo",
+			"boderRed",
+			"debugger",
+			"box-card",
+			"svgicon",
+			"components",
+			"import",
+			"line",
+			"listLoading",
+			"Message",
+			"iview",
+			"v-for",
+			"filterNode",
+			"defaultProps",
+			"tree2",
+			"GetInfo",
+			"request拦截器",
+			"pwdType",
+			"user-select",
+			"margin",
+			"title",
+			"center",
+			"loginForm",
+			"login-form",
+			"class",
+			"login-form",
+			"el-input",
+			"login-container",
+			"$bg",
+			"$light_gray",
+			"$bg",
+			"handler",
+			"login",
+			"handleLogin",
+			"showPwd",
+			"pwdType",
+			"listeners",
+			"user",
+			"user1",
+			"`",
+			"iconfont.js",
+			"svg",
+			"svg-container",
+			"title",
+			"mock",
+			"ls-remote",
+			"git",
+			"webpack",
+			"webpakc",
+			"router.",
+			"beforeEach",
+			"before",
+			"+new Date()",
+			"clickLink",
+			"filterAsyncRoutes",
+			"asyncRoutes",
+			"resetRouter",
+			"AppMain",
+			"router.push",
+			"fade-transform",
+			"ResizeMixin",
+			"clearfix",
+			"fixed-header",
+			"fixedHeader",
+			"needTagsView",
+			"sidebar-container",
+			"&",
+			"openSidebar",
+			"hideSidebar",
+			"withoutAnimation",
+			"redirect",
+			"permission/index",
+			"clickLink",
+			"constantRoutes",
+			"export",
+			"Export",
+			"export",
+			"Export",
+			"export",
+			"constantRoutes",
+			"() => import",
+			"router-view :key=\"key",
+			"return this.$route.name !== undefined",
+			"AppMain",
+			"getToken",
+			"devtool",
+			"devtools",
+			"slot",
+			"filterAsyncRouter",
+			"asyncRouterMap",
+			"menu-wrapper"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_",
+			"jin",
+			"",
+			"\\r",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/store/modules/permission.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1934,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"SL.42.region_keys":
+							[
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/router/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1036,
+								1036
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.43.region_keys":
+							[
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/views/communication/link.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"SL.44.region_keys":
+							[
+							],
+							"syntax": "Packages/vue-syntax-highlight-master/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/store/modules/socket.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"SL.19.region_keys":
+							[
+							],
+							"SL.48.region_keys":
+							[
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/views/user/user.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"SL.19.region_keys":
+							[
+							],
+							"SL.41.region_keys":
+							[
+							],
+							"syntax": "Packages/vue-syntax-highlight-master/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"perm",
+				"permission.js"
+			],
+			[
+				"ba",
+				"D:\\QtProject\\QmlDemo\\QmlDemo\\qml\\ch06\\src\\listview\\basic.qml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

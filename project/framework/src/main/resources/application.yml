@@ -3,7 +3,15 @@ spring:
       url: jdbc:mysql://localhost:3306/tc?serverTimezone=GMT&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       username: tc
       password: tc
+  #配置 Jpa
+  jpa:
+    hibernate:
+      # 生产环境设置成 none，避免程序运行时自动更新数据库结构
+      ddl-auto: none
 mybatis:
    mapperLocations: classpath:/mapper/*.xml
 server:
    port: 8080
+
+
+   

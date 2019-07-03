@@ -1,8 +1,8 @@
 package com.heeexy.example.service;
 
-import com.heeexy.example.domain.Article;
-import com.heeexy.example.service.dto.ArticleDTO;
-import com.heeexy.example.service.dto.ArticleQueryCriteria;
+import com.heeexy.example.domain.SysRolePermission;
+import com.heeexy.example.service.dto.SysRolePermissionDTO;
+import com.heeexy.example.service.dto.SysRolePermissionQueryCriteria;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
@@ -10,10 +10,10 @@ import org.springframework.data.domain.Pageable;
 
 /**
 * @author tc
-* @date 2019-06-13
+* @date 2019-06-23
 */
-@CacheConfig(cacheNames = "article")
-public interface ArticleService {
+@CacheConfig(cacheNames = "sysRolePermission")
+public interface SysRolePermissionService {
 
     /**
     * queryAll 分页
@@ -22,7 +22,7 @@ public interface ArticleService {
     * @return
     */
     @Cacheable(keyGenerator = "keyGenerator")
-    Object queryAll(ArticleQueryCriteria criteria, Pageable pageable);
+    Object queryAll(SysRolePermissionQueryCriteria criteria, Pageable pageable);
 
     /**
     * queryAll 不分页
@@ -30,7 +30,7 @@ public interface ArticleService {
     * @return
     */
     @Cacheable(keyGenerator = "keyGenerator")
-    public Object queryAll(ArticleQueryCriteria criteria);
+    public Object queryAll(SysRolePermissionQueryCriteria criteria);
 
     /**
      * findById
@@ -38,7 +38,7 @@ public interface ArticleService {
      * @return
      */
     @Cacheable(key = "#p0")
-    ArticleDTO findById(Integer id);
+    SysRolePermissionDTO findById(Integer id);
 
     /**
      * create
@@ -46,14 +46,14 @@ public interface ArticleService {
      * @return
      */
     @CacheEvict(allEntries = true)
-    ArticleDTO create(Article resources);
+    SysRolePermissionDTO create(SysRolePermission resources);
 
     /**
      * update
      * @param resources
      */
     @CacheEvict(allEntries = true)
-    void update(Article resources);
+    void update(SysRolePermission resources);
 
     /**
      * delete

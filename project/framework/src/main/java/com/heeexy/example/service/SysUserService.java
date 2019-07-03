@@ -1,8 +1,8 @@
 package com.heeexy.example.service;
 
-import com.heeexy.example.domain.Article;
-import com.heeexy.example.service.dto.ArticleDTO;
-import com.heeexy.example.service.dto.ArticleQueryCriteria;
+import com.heeexy.example.domain.SysUser;
+import com.heeexy.example.service.dto.SysUserDTO;
+import com.heeexy.example.service.dto.SysUserQueryCriteria;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
@@ -10,10 +10,10 @@ import org.springframework.data.domain.Pageable;
 
 /**
 * @author tc
-* @date 2019-06-13
+* @date 2019-06-23
 */
-@CacheConfig(cacheNames = "article")
-public interface ArticleService {
+@CacheConfig(cacheNames = "sysUser")
+public interface SysUserService {
 
     /**
     * queryAll 分页
@@ -22,15 +22,15 @@ public interface ArticleService {
     * @return
     */
     @Cacheable(keyGenerator = "keyGenerator")
-    Object queryAll(ArticleQueryCriteria criteria, Pageable pageable);
+    Object queryAll(SysUserQueryCriteria criteria, Pageable pageable);
 
     /**
     * queryAll 不分页
     * @param criteria
     * @return
     */
-    @Cacheable(keyGenerator = "keyGenerator")
-    public Object queryAll(ArticleQueryCriteria criteria);
+//    @Cacheable(keyGenerator = "keyGenerator")
+//    public Object queryAll(SysUserQueryCriteria criteria);
 
     /**
      * findById
@@ -38,7 +38,7 @@ public interface ArticleService {
      * @return
      */
     @Cacheable(key = "#p0")
-    ArticleDTO findById(Integer id);
+    SysUserDTO findById(Integer id);
 
     /**
      * create
@@ -46,14 +46,14 @@ public interface ArticleService {
      * @return
      */
     @CacheEvict(allEntries = true)
-    ArticleDTO create(Article resources);
+    SysUserDTO create(SysUser resources);
 
     /**
      * update
      * @param resources
      */
     @CacheEvict(allEntries = true)
-    void update(Article resources);
+    void update(SysUser resources);
 
     /**
      * delete

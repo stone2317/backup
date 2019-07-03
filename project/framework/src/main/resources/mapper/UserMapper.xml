@@ -178,7 +178,7 @@
     <update id="removeOldPermission">
         UPDATE sys_role_permission
         SET
-        delete_status = '2'
+        delete_status = '2'getAllRoles
         WHERE role_id = #{roleId}
         AND permission_id in (
         <foreach collection="permissions" item="item" index="index" separator=",">
